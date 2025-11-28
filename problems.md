@@ -30,18 +30,7 @@
    - Why `IsAbelian(Q)` doesn't work? `IsAbelian` is defined for `GrpLie`, `GrpFin`, `GrpPerm`, GrpMat, GrpPC and `GrpGPC` while in this case `Q` is still a `GrpFP`; we need to change the type!
 
 9. Given a polynomial $f$, does `f(1)` work instead of `Evaluate(f, 1)`? No.
-10. Given a polynomial $f$ with integer coefficients, how can I consider it as a polynomial with coefficients in other fields? Example:
-
-```> P<x> := PolynomialRing(IntegerRing());
-   > f := x^5-3*x+2;
-   > Factorization(f);
-   [
-       <x - 1, 1>,
-       <x^4 + x^3 + x^2 + x - 2, 1>
-   ]
-```
-
-Can we obtain the factorization of $f$ in other fields (e.g. finite fields)?
+10. Given a polynomial $f$ with integer coefficients, how can I consider it as a polynomial with coefficients in other fields? Can we obtain the factorization of $f$ in other fields (e.g. finite fields)?
 
 11. Let G be a finite sporadic group (e.g. $G=M_{22}$). Can we compute (things that are in the ATLAS)
     - Different representations of $G$ 
