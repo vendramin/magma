@@ -1,4 +1,6 @@
-# Problems
+# Problems, questions, exercises
+
+### 27/11/2025
 
 ### First meeting
 
