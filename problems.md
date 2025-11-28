@@ -2,8 +2,6 @@
 
 ### 27/11/2025
 
-### First meeting
-
 1. Given a function with more than one output, such as ```IsCoercible```, how can we get the second argument of the output?
 2. Given a finite field $F$, is there a way to get a generator of the group $F^\times$?
 3. Can we use parameters when doing computations with matrices? For example, given $A=\begin{pmatrix} 1 & t \\ 1 & -1 \end{pmatrix}$, where $t$ is a parameter, can we compute the determinant of $A$ depending on $t$? If it is not possible, should we consider $A$ as a matrix with coefficients in some particular ring?
@@ -27,10 +25,10 @@
   C2 ^2
 ```
 
-   - Why `Q:=quo<P|N>` doesn't work?  <mark> For me, it works! </mark>.
-   - Why `IsAbelian(Q)` doesn't work? <mark> `IsAbelian` is defined for `GrpLie`, `GrpFin`, `GrpPerm`, GrpMat, GrpPC and `GrpGPC` while in this case `Q` is still a `GrpFP`; we need to change the type!  </mark>.
+   - Why `Q := quo<P|N>` doesn't work? <mark> For me, it works!</mark>
+   - Why `IsAbelian(Q)` doesn't work? <mark> `IsAbelian` is defined for `GrpLie`, `GrpFin`, `GrpPerm`, GrpMat, GrpPC and `GrpGPC` while in this case `Q` is still a `GrpFP`; we need to change the type!</mark>
 
-9. Given a polynomial $f$, does `f(1)` it work instead of `Evaluate(f, 1)`? <mark> No. </mark>.
+9. Given a polynomial $f$, does `f(1)` work instead of `Evaluate(f, 1)`? <mark>No.</mark>
 10. Given a polynomial $f$ with integer coefficients, how can I consider it as a polynomial with coefficients in other fields? For example
   ``` > P<x> := PolynomialRing(IntegerRing()); > f := x^5-3*x+2;
       > Factorization(f);
