@@ -26,17 +26,18 @@
   C2^2
 ```
 
-   - Why `Q := quo<P|N>` doesn't work? <mark> For me, it works!</mark>
-   - Why `IsAbelian(Q)` doesn't work? <mark> `IsAbelian` is defined for `GrpLie`, `GrpFin`, `GrpPerm`, GrpMat, GrpPC and `GrpGPC` while in this case `Q` is still a `GrpFP`; we need to change the type!</mark>
+   - Why `Q := quo<P|N>` doesn't work? It works!
+   - Why `IsAbelian(Q)` doesn't work? <mark>`IsAbelian` is defined for `GrpLie`, `GrpFin`, `GrpPerm`, GrpMat, GrpPC and `GrpGPC` while in this case `Q` is still a `GrpFP`; we need to change the type!</mark>
 
 9. Given a polynomial $f$, does `f(1)` work instead of `Evaluate(f, 1)`? <mark>No.</mark>
-10. Given a polynomial $f$ with integer coefficients, how can I consider it as a polynomial with coefficients in other fields? For example
-  ``` > P<x> := PolynomialRing(IntegerRing()); > f := x^5-3*x+2;
-      > Factorization(f);
-      [
-          <x - 1, 1>,
-          <x^4 + x^3 + x^2 + x - 2, 1>
-      ]
+10. Given a polynomial $f$ with integer coefficients, how can I consider it as a polynomial with coefficients in other fields? Example: 
+  ```> P<x> := PolynomialRing(IntegerRing());
+     > f := x^5-3*x+2;
+     > Factorization(f);
+     [
+         <x - 1, 1>,
+         <x^4 + x^3 + x^2 + x - 2, 1>
+     ]
 ```
 Can we obtain the factorization of $f$ in other fields (e.g. finite fields)?
 
