@@ -17,12 +17,13 @@
   P<a,b> := Group < a,b | a^-1*b^2*a*b^2, b^-1*a^2*b*a^2 >;
   > x := a^2;
   > y := b^2;
-  > z := (x*y)^2;
+  > z := (a*b)^2;
   > N := sub<P|x,y,z>;
-  > Q, p := quo<P|a^2,b^2,(a*b)^2>; > IdentifyGroup(Q);
+  > Q, p := quo<P|a^2,b^2,(a*b)^2>;
+  > IdentifyGroup(Q);
   <4, 2>
   > GroupName(Q);
-  C2 ^2
+  C2^2
 ```
 
    - Why `Q := quo<P|N>` doesn't work? <mark> For me, it works!</mark>
