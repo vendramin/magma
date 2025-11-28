@@ -14,7 +14,7 @@
    - Can you compute (some) idempotents of $K[G]$?
 8. About the Promislow group $P$
 ```Magma
-  P<a,b> := Group < a,b | a^-1*b^2*a*b^2, > b^-1*a^2*b*a^2 >;
+  P<a,b> := Group < a,b | a^-1*b^2*a*b^2, b^-1*a^2*b*a^2 >;
   > x := a^2;
   > y := b^2;
   > z := (x*y)^2;
