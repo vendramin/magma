@@ -4,7 +4,7 @@
 
 1. Given a function with more than one output, such as ```IsCoercible```, how can we get the second argument of the output?
 2. Given a finite field $F$, is there a way to get a generator of the group $F^\times$?
-3. Can we use parameters when doing computations with matrices? For example, given a $A=\begin{matrix} 1 & t \\ 1 & -1 \end{matrix}$, where $t$ is a parameter, can we compute the determinant of $A$ depending on $t$? If it is not possible, should we consider $A$ as a matrix with coefficients in some particular ring?
+3. Can we use parameters when doing computations with matrices? And matrices with parameters?
 4. What type is a subgroup (or any substructure or quotient)? How can we access the inclusion map?
 5. Check if ```IsNormal``` only checks invariance under conjugation of a subset and not that it is a subgroup.
 6. Is it possible to get a random element of ```GroupAlgebra(ComplexField(), Sym(3))```? If not, what is the problem?
@@ -12,7 +12,7 @@
    - How is $G$ embedded in $K[G]$?
    - Can we compute (some) units of $K[G]$
    - Can you compute (some) idempotents of $K[G]$?
-8. About the Promislow group $P$
+8. About the Promislow group $P$:
 ```Magma
   P<a,b> := Group < a,b | a^-1*b^2*a*b^2, b^-1*a^2*b*a^2 >;
   > x := a^2;
@@ -31,6 +31,7 @@
 
 9. Given a polynomial $f$, does `f(1)` work instead of `Evaluate(f, 1)`? No.
 10. Given a polynomial $f$ with integer coefficients, how can I consider it as a polynomial with coefficients in other fields? Example:
+
 ```> P<x> := PolynomialRing(IntegerRing());
    > f := x^5-3*x+2;
    > Factorization(f);
