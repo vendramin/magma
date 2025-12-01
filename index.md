@@ -6,9 +6,12 @@ The idea is to hold an informal, friendly seminar/workshop to explore the comput
 
 [Here](problems.md) we collect some questions, problems and exercises. 
 
-## Slides
+## Schedule and slides
 
-* 27/11/2025. [Vendramin](slides/vendramin.pdf).
+|   Lecture   |    Time      | Room | Speaker |
+|:-----------:|:------------:|:----:|:-------:|
+|      1      | 27/11/2025, 14:00 | G.6.60 | [Vendramin](slides/vendramin.pdf) |
+|      2      | 5/12/2025, 14:00 | G.6.60 | Liu |
 
 ## Some links
 
