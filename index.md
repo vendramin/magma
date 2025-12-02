@@ -8,10 +8,10 @@ The idea is to hold an informal, friendly seminar/workshop to explore the comput
 
 ## Schedule and slides
 
-|   Lecture   |    Time      | Room | Speaker |
-|:-----------:|:------------:|:----:|:-------:|
-|      1      | 27/11/2025, 14:00 | G.6.60 | [Vendramin](slides/vendramin.pdf) |
-|      2      | 5/12/2025, 14:00 | G.6.60 | Liu |
+|   Lecture   |    Time      | Room | Speaker | 
+|:-----------:|:------------:|:----:|:-------:| 
+|      1      | 27/11/2025, 14:00 | G.6.60 | [(Vendramin) We need Magma!](slides/vendramin.pdf) |
+|      2      | 5/12/2025, 14:00 | G.6.60 | (Liu) Basic group theory |
 
 ## Some links
 
