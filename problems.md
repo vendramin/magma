@@ -33,3 +33,5 @@
     - Different representations of $G$ 
     - The conjugacy classes of $G$? (conjugacy class fusion from (maximal) subgroups to $G$)
     - Some character tables related to $G$ (e.g. maximal subgroups, some normalizers, some centralizers...)?
+
+[Here](solutions/20251127.pdf) are some solutions, written by Andrew Darlington.  
