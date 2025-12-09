@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About"
+title: "VUB Magma worhshop"
 ---
 
 The idea of this Magma workshop is to hold an informal, friendly
