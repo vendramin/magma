@@ -1,7 +1,9 @@
 ---
 title: 'Return values'
-date: 2019-02-19
-permalink: /posts/2025/12/09/return-values/
+date: 2025-11-27
+categories:
+  - questions
+  - blog
 tags:
   - basic
 ---
