@@ -1,7 +1,7 @@
 ---
 title: 'Iterating over an automorphism group'
 date: 2025-11-27
-author: VUB algebra group 
+author: VUB algebra research group 
 categories:
   - questions
 tags:
