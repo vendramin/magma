@@ -62,9 +62,10 @@ plugins:
 
 author:
   name: "VUB Algebra research group" 
-  avatar: "/assets/images/algebra.png"
+  avatar: "/assets/images/vub.png"
   url: "https://leandrovendramin.org/team/" 
-  bio: "The idea is to hold an informal, friendly seminar/workshop to explore the computer algebra system Magma."
+  bio: "A group of algebraists exploring Magma in an informal, friendly
+    seminar. We seek the line of code that finally makes everything work."
 #  links:
 #    - label: "VUB algebra research group"
 #      url: "https://leandrovendramin.org/team/"
@@ -81,7 +82,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false  
+      author_profile: true  
       read_time: false
       comments: true
       readmore: false
