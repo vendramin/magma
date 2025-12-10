@@ -49,6 +49,7 @@ author:
   name: "VUB Algebra Research Group" 
   avatar: "/assets/images/vub.png"
   url: "https://leandrovendramin.org/team/" 
+  location : "Brussels, Belgium"
   email: "Leandro.Vendramin@vub.be"
   bio: "A group of algebraists exploring Magma in an informal, friendly
     seminar. We seek the line of code that finally makes everything work."
