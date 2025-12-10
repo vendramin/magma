@@ -1,7 +1,7 @@
 ---
 title: 'Given a polynomial $f$, does `f(1)` work instead of Evaluate(f, 1)?'
 date: 2025-11-27
-author: 'Andrew Darlington'
+author: Andrew Darlington
 categories:
   - questions
 tags:

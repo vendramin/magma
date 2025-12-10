@@ -1,5 +1,4 @@
 # /_data/authors.yml
-
 Leandro Vendramin:
   name        : "Leandro Vendramin"
   avatar      : "/assets/images/vendramin.png"
@@ -10,6 +9,17 @@ Leandro Vendramin:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://leandrovendramin.org"
+
+Silvia Properzi:
+  name        : "Silvia Properzi"
+  avatar      : "/assets/images/properzi.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:Silvia.Properzi@vub.be"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://properzi.github.io"
 
 Andrew Darlington:
   name        : "Andrew Darlington"
