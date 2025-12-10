@@ -5,8 +5,9 @@ author: Silvia Properzi
 categories:
   - questions
 tags:
-  - groups
-  - infinite groups
+  - group
+  - infinite group
+  - Promislow group
 ---
 About the Promislow group.
 ```

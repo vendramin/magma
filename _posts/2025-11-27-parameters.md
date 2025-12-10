@@ -5,7 +5,8 @@ author: Andrew Darlington
 categories:
   - questions
 tags:
-  - matrices
+  - matrix
+  - linear algebra
 ---
 I believe the matrix has to be defined over a polynomial ring. For example:
 ```

@@ -1,12 +1,12 @@
 ---
-title: 'Given a polynomial with integer coefficients, how can I consider it as a polynomial with coefficients in other fields? 
+title: 'Given a polynomial with integer coefficients, how can I consider it as a polynomial with coefficients in other fields?'
 date: 2025-11-27
 author: Andrew Darlington
 categories:
   - questions
 tags:
-  - fields
-  - polynomials
+  - field
+  - polynomial
 ---
 For example, let `f` be an integer polynomial. Can we obtain the factorization
 of `f` in other fields (e.g. finite fields)?'
