@@ -1,7 +1,7 @@
 ---
 title: 'The Promislow group'
 date: 2025-11-27
-author: Silvia Properzi
+author: VUB
 categories:
   - questions
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 'Given a function with more than one output, how can we get the second argument of the output?'
 date: 2025-11-27
+author: Andrew Darlington
 categories:
   - questions
 tags:
