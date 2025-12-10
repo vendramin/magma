@@ -11,8 +11,10 @@ tags:
   - automorphism group
   - conjugation
 ---
-The idea is to construct all groups of order 12 that are 
+**Exercise.** Construct all all groups of order 12 that are 
 semidirect products.
+
+**Solution.** We first start with the group $(C_2\times C_2)\rtimes C_3$.  
 
 ```
 > C2 := CyclicGroup(2);
