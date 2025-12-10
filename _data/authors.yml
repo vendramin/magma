@@ -1,6 +1,6 @@
 # /_data/authors.yml
-VUB algebra research group:
-  name        : "VUB algebra research group"
+VUB:
+  name        : "VUB Algebra Research Group"
   avatar      : "/assets/images/vub.png"
   links:
     - label: "Email"

@@ -1,7 +1,7 @@
 ---
 title: 'The Promislow group'
 date: 2025-11-27
-author: VUB algebra research group
+author: VUB
 categories:
   - questions
 tags:

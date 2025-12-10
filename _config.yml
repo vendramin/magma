@@ -1,4 +1,4 @@
-title: VUB Magma seminar 
+title: VUB Magma Seminar 
 #email:
 description: >- # this means to ignore newlines until "baseurl:"
 #  Write an awesome description for your new site here. You can edit this
@@ -46,19 +46,19 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name: "VUB Algebra research group" 
+  name: "VUB Algebra Research Group" 
   avatar: "/assets/images/vub.png"
   url: "https://leandrovendramin.org/team/" 
   email: "Leandro.Vendramin@vub.be"
   bio: "A group of algebraists exploring Magma in an informal, friendly
     seminar. We seek the line of code that finally makes everything work."
-#  links:
-#    - label: "VUB algebra research group"
-#      url: "https://leandrovendramin.org/team/"
+  links:
+    - label: "VUB algebra research group"
+      url: "https://leandrovendramin.org/team/"
 
 footer:
   links:
-    - label: "VUB algebra research group"
+    - label: "VUB Algebra Research Group"
       url: "https://leandrovendramin.org/team/" 
       email: "Leandro.Vendramin@vub.be"
 
