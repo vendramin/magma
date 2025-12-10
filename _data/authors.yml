@@ -1,0 +1,24 @@
+# /_data/authors.yml
+
+Leandro Vendramin:
+  name        : "Leandro Vendramin"
+  avatar      : "/assets/images/vendramin.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:Leandro.Vendramin@vub.be"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://leandrovendramin.org"
+
+Andrew Darlington:
+  name        : "Andrew Darlington"
+  avatar      : "/assets/images/darlington.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:Andrew.Darlington@vub.be"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://sites.google.com/view/andrewdarlington/home?authuser=0"
+
