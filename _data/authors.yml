@@ -2,6 +2,8 @@
 VUB:
   name        : "VUB Algebra Research Group"
   avatar      : "/assets/images/vub.png"
+  bio: "A group of algebraists exploring Magma in an informal, friendly
+    seminar. We seek the line of code that finally makes everything work."
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
