@@ -60,8 +60,10 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-#author:
-#  bio    : "The idea is to hold an informal, friendly seminar/workshop to explore the computer algebra system Magma."
+author:
+  name   : "VUB Algebra research group" 
+  url: "https://leandrovendramin.org/team/" 
+  bio    : "The idea is to hold an informal, friendly seminar/workshop to explore the computer algebra system Magma."
 #  links:
 #    - label: "VUB algebra research group"
 #      url: "https://leandrovendramin.org/team/"
@@ -78,7 +80,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true 
       read_time: false
       comments: true
       share: false

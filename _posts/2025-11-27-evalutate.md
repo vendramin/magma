@@ -8,12 +8,14 @@ tags:
   - polynomials
 ---
 Given a polynomial `f`, does `f(1)` work instead of `Evaluate(f, 1)?`
-No. Example:
+No. For example, with the following code: 
 ```
-> Q<x> := PolynomialAlgebra(Rationals());
-> f := x^2+x+1;
-> f(1);
-
+Q<x> := PolynomialAlgebra(Rationals());
+f := x^2+x+1;
+f(1);
+```
+we get an error message: 
+```
 >> f(1);
     ^
 Runtime error in '@': Bad argument types
