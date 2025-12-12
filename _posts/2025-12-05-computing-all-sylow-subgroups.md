@@ -28,6 +28,7 @@ The code
 ```
 t := Transversal(S3,P);
 { P^x : x in t };
+```
 produces the same result as before, namely 
 ```
 {
