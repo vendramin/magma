@@ -7,7 +7,7 @@ categories:
 tags:
   - memory 
 ---
-The function SetMemoryLimit sets the memory limit (in bytes). The parameter 0
+The function `SetMemoryLimit` sets the memory limit (in bytes). The parameter 0
 means **no limit**. To see the current setting, use the function
 `GetMemoryLimit`.
 
