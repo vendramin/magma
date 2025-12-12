@@ -1,7 +1,7 @@
 ---
 title: 'Copying from worksheets'
 date: 2025-12-13
-author: Leandro Vendramin
+author: VUB
 categories:
   - questions
 tags:
