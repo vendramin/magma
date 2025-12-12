@@ -1,6 +1,6 @@
 ---
 title: 'Groups of order 12 as semidirect products'
-date: 2025-11-27
+date: 2025-12-05
 author: Leandro Vendramin
 categories:
   - exercises

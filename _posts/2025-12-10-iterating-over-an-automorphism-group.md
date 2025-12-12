@@ -1,6 +1,6 @@
 ---
 title: 'Iterating over an automorphism group'
-date: 2025-11-27
+date: 2025-12-10
 author: VUB
 categories:
   - questions

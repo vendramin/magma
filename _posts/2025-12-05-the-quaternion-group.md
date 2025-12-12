@@ -1,6 +1,6 @@
 ---
 title: 'The quaternion group'
-date: 2025-11-27
+date: 2025-12-05
 author: VUB
 categories:
   - questions
