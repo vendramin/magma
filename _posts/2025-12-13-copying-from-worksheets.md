@@ -3,9 +3,9 @@ title: 'Copying from worksheets'
 date: 2025-12-13
 author: VUB
 categories:
-  - questions
+  - tips
 tags:
-  - basic 
+  - prompt 
 ---
 If you have Magma code where every line begins with `>` 
 (the Magma REPL prompt), then pasting it directly 

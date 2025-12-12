@@ -3,9 +3,9 @@ title: 'Remove variable binding'
 date: 2025-12-13
 author: VUB
 categories:
-  - questions
+  - tips
 tags:
-  - basic 
+  - variable 
 ---
 Suppose you define a variable `x`, e.g.
 ```
