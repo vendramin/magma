@@ -7,7 +7,6 @@ categories:
 tags:
   - algebra 
   - Nichols algebra
-  - structure constants
 ---
 In [Heckenberger's course](https://leandrovendramin.org/heckenberger/) _Nichols
 algebras and root systems_ there are three exercises where one needs to compute
@@ -142,4 +141,21 @@ For the third exercise, the braiding is the following:
 ````
 where `w` is a primitive cubic root of unity.  The dimensions of homogeneous
 components are `1, 2, 2, 2, 2, 2, 1` and the dimension of the algebra is 12.
+
+### Better with sparce matrices? 
+
+There is a trick to try to gain some speed: use `SparseMatrix`
+for the quantum symmetrizer. Here is an alternative code for the function
+`ComputeDimension`:
+````
+> ComputeDimensionSparseMatrix := function(c, n)
+function> if n eq 0 then
+function|if> return 1;
+function|if> else
+function|if> return Rank(SparseMatrix(Symmetrizer(c, n)));
+function|if> end if;
+function> end function;
+````
+In these examples, I cannot find a huge speed improvement, though. 
+
 
